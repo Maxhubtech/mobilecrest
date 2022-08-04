@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800&display=swap');
+:root{
+    --main-color:#00eeff;
+    --secondary-color:#ff0400;
+    --blue-color:#0000ff;
+    --orange-color:#ffa500;
+}
+.navbar{
+    background: var(--main-color);
+    /* margin-bottom: 4rem; */
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navbar-brand span{
+    color: var(--blue-color);
+}
+.navbar .nav-link{
+    color:var(--secondary-color);
+}
+.navbar .nav-link .active{
+    color:var(--main-color);
+}
+.navbar .nav-link:hover{
+    color:var(--blue-color);
+    background: var(--orange-color);
+}
+.carousel-inner img{
+    height: 80vh;
+
+}
+.carousel-caption h3{
+    color: var(--main-color);
+}
+.carousel-caption p{
+    color: var(--secondary-color);
+    text-shadow: 2rem, 2rem, var(--blue-color);
+}
+#main { 
+    background-color:white;
+}
+#main h4{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 0.7rem;
+    padding: 0.4rem auto;
+    background: var(--blue-color);
+    color: var(--secondary-color);
+}
+#main p{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #f0f8ff;
+    font-weight:400;
+}
+.img-fluid{
+    border-radius: 15px;
+    }
+.card h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+.col-md-2{
+    border-radius: 2rem;
+}
